@@ -1,0 +1,1 @@
+INSERT into tb_empresa (razao_social, data_atualizacao) values ('primeira empresa', '1994-12-29');
