@@ -8,12 +8,14 @@ public class Response<T> {
 	private T data;
 	private List<String> errors;
 	
-	public Response(T data){
-		this.data = data;
-	}
+	public Response(){}
 	
 	public T getData() {
 		return this.data;
+	}
+	
+	public void setData(T data) {
+		this.data = data;
 	}
 	
 	public List<String> getErrors() {
@@ -25,4 +27,5 @@ public class Response<T> {
 	public void setErrors(List<String> errors) {
 		this.errors = errors;
 	}
+
 }
